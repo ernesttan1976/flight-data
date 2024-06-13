@@ -195,3 +195,4 @@ coverage
 
 spark-warehouse/
 pickle/
+csv/
