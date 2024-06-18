@@ -25,7 +25,7 @@ with open(csv_path) as fp:
             count += 1
       
 nrows = 80000000
-df1 = read_csv(csv_path, verbose=True, skiprows=0, nrows=nrows)
+df1 = read_csv(csv_path, verbose=True, skiprows=0)
 print(f"loaded {nrows} of {count} rows")
 
 if __name__ == '__main__':
