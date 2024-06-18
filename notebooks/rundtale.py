@@ -18,7 +18,7 @@ from datetime import datetime
 from pandas import read_csv
 
 start_date_time = dt.datetime(2024,6,1,0,0,0)
-csv_path = os.path.join(os.getcwd(), 'csv', 'joined', f'{start_date_time.strftime("%Y%m%d")}joined.csv')
+csv_path = os.path.join(os.getcwd(), 'csv', 'joined', f'{start_date_time.strftime("%Y%m%d")}joined-2.csv')
 count = 0
 with open(csv_path) as fp:
       for _ in fp:
