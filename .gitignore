@@ -196,3 +196,4 @@ coverage
 spark-warehouse/
 pickle/
 csv/
+knownspoofing/
